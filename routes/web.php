@@ -33,6 +33,12 @@ Route::get('/task', function () {
     ]);
 });
 
+Route::get('/welcome', function () {
+
+    return view('welcome');
+
+});
+
 /**
     * Add New Task
     */
