@@ -25,6 +25,13 @@ Route::get('/', function () {
         'tasks' => Task::orderBy('created_at', 'asc')->get()
     ]);
 });
+// add force
+Route::get('/task', function () {
+    error_log("INFO: get /");
+    return view('tasks', [
+        'tasks' => Task::orderBy('created_at', 'asc')->get()
+    ]);
+});
 
 /**
     * Add New Task
