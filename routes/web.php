@@ -33,11 +33,15 @@ use Illuminate\Http\Request;
 //     ]);
 // });
 
-Route::get('/', function () {
+// Route::get('/', function () {
 
-    return view('welcome');
+//     return view('welcome');
 
-});
+// });
+
+Route::get('/', function() {
+    return 'hello world';
+    });
 
 /**
     * Add New Task
