@@ -7,7 +7,7 @@ server {
     listen [::]:443;
     listen [::]:80;
     listen [::]:8080;
-    root /home/site/wwwroot/example-app; # changed for Laravel
+    root /home/site/wwwroot; # changed for Laravel
     index  index.php index.html index.htm;
     server_name  wiss.azurewebsites.net www.wiss.azurewebsites.net;
 
